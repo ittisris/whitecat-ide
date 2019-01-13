@@ -39,7 +39,7 @@ function board() {
 	
 	// Get the supported boards
 	jQuery.ajax({
-		url: "https://raw.githubusercontent.com/whitecatboard/Lua-RTOS-ESP32/master/boards/boards.json",
+		url: "https://raw.githubusercontent.com/ittisris/whitecatboard_supported/master/boards.json",
 		success: function(result) {
 			var boards = JSON.parse(result);
 			
